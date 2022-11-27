@@ -1,0 +1,13 @@
+@prefix example: <http://example.com/>
+
+example:me a example:Person ;
+  example:name "John Doe" ;
+  example:mailbox <mailto:john.doe@example.com> ;
+  example:nickname "Jax" ;
+  example:knows example:you .
+
+example:you  a example:Person ;
+ example:name "Jane Doe" ;
+ example:mailbox <mailto:john.doe@example.com> ;
+ example:nickname "Jay" ;
+ example:knows example:me .
